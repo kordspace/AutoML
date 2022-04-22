@@ -1,0 +1,10 @@
+scikit-learn
+pandas
+{% if framework == 'tensorflow' %}
+tensorflow>=1.12
+tensorflow_addons
+hdf5
+{% endif %}
+{% if framework == 'xgboost' %}
+xgboost
+{% endif %}

@@ -1,0 +1,6 @@
+autopep8
+jinja2>=2.8
+pandas
+pyyaml
+scikit-learn
+tqdm
